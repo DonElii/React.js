@@ -1,38 +1,32 @@
-/*
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Hello from "./sayHello";
+import Tweet from "./Tweet";
+import Increment from "./Increment";
+import Color_change from "./Color_change";
+import Tweet_objects from "./Tweet_objects";
+import sayHello from "./HelloWorld";
+import HelloWorld from "./HelloWorld";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className="app">
+      <center>
+        {/*<h2 Classname="Welcometitle">Welcome on Twitter</h2>*/}
+        <Hello />
+        {/*<HelloWorld />*/}
+        {/*<Increment />*/}
+        <Color_change />
 
-export default App;
-*/
-
-
-import React from 'react';
-
-function App(){
-  return(
-    <div>
-      <h1>Welcome Home</h1>
+        {/*
+        <Tweet
+          name="Apple cinnamon pie"
+          message="recipe of Apple cinnamon pie"
+        />
+        <Tweet name="Chocholate mousse" message="recipe of Chocolate mousse" />
+        <Tweet name="Almond cake" message="recipe of Almond cake" />
+        <Tweet name="Cherry strudel" message="recipe of Cherry strudel" /> */}
+        <Tweet_objects />
+      </center>
     </div>
   );
 }

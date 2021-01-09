@@ -1,6 +1,8 @@
+/*
 .App {
   text-align: center;
 }
+*/
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app {
+  min-height: 100vh;
+  background: lightcoral;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tweet {
+  height: 300px;
+  width: 300px;
+  background: rgb(230, 191, 173);
+  border: 2px solid sandybrown;
+  border-radius: 30px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hello {
+  background: rgb(238, 216, 144);
+  border: 2px solid sandybrown;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color_change {
+  background: rgb(214, 189, 105);
+  border: 2px solid sandybrown;
+  border-radius: 10px;
+  display: contents;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blue {
+  color: teal;
+  font-size: 30px;
+}
+
+.purple {
+  color: purple;
+  font-size: 30px;
 }
